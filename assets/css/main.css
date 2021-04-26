@@ -1337,7 +1337,7 @@ button {
 
 		#header nav ul li {
 			padding-left: 0;
-			border-left: solid 1px #ffffff;
+			border-left: solid 1px #ffffff00;
 		}
 
 			#header nav ul li:first-child {
