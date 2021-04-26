@@ -928,7 +928,7 @@ table {
 }
 
 	table tbody tr {
-		border: solid 0px #ffffff;
+		border: solid 0px #ffffff00;
 		border-left: 0;
 		border-right: 0;
 	}
@@ -962,7 +962,7 @@ table {
 	}
 
 		table.alt tbody tr td {
-			border: solid 1px #ffffff;
+			border: solid 1px #ffffff00;
 			border-left-width: 0;
 			border-top-width: 0;
 		}
