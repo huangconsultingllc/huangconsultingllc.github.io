@@ -76,18 +76,33 @@
 							<div>
 								<section>
 									<h2>Get in touch</h2>
-        <div id="contact-form">
-                <form action="https://formspree.io/f/mzbyybkg" method="POST">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Type your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
+								
+				<form method="post" action="https://formspree.io/f/mzbyybkg">
+										<div class="fields">
+											<div class="field half">
+												<input type="text" name="name" id="name" placeholder="Name" />
+											</div>
+											<div class="field half">
+												<input type="text" name="email" id="email" placeholder="Email" />
+											</div>
+											<div class="field">
+												<textarea name="message" id="message" rows="4" placeholder="Message"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
 									
 									
 									
-
+									
+									
+									
+									
+									
+									
 								</section>
 							</div>
 						</div>
