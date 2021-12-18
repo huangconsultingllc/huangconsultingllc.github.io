@@ -1350,7 +1350,7 @@ input, select, textarea {
 			}
 
 			.poptrox-popup .caption {
-				/* display: none !important; */
+				 display: block; /* !important; */ 
 			}
 
 			.poptrox-popup .closer,
